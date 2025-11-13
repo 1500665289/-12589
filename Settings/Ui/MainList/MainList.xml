@@ -1,0 +1,14 @@
+<MainList><List>
+	
+	<Data Kind="Builds" Type="门派" Unlock="1"  CMDType="Build" Name="DiePlace"/>             		<!--停尸点--> 	
+
+	<Data Kind="Builds" Type="区域" Unlock="1"  CMDType="Build" Name="WRJ_FillSoil"/>  				<!--改平地--> 
+	<Data Kind="Builds" Type="区域" Unlock="1"  CMDType="Build" Name="WRJ_FillShallowWater"/>  		<!--改浅水--> 
+	<Data Kind="Builds" Type="区域" Unlock="1"  CMDType="Build" Name="WRJ_FillFertileSoil"/>  		<!--普通改沃土--> 
+	<Data Kind="Builds" Type="区域" Unlock="1"  CMDType="Build" Name="WRJ_FillLingSoil"/>  			<!--普通改灵土--> 
+	<Data Kind="Builds" Type="区域" Unlock="1"  CMDType="Build" Name="WRJ_FillDepthWater"/> 			<!--深水改浅水--> 
+	<Data Kind="Builds" Type="区域" Unlock="1"  CMDType="Build" Name="WRJ_FillLingWater"/> 			<!--浅水改灵水--> 
+
+	<Data Kind="Builds" Type="神秘" Unlock="1"  CMDType="Build" Name="WRJ_Taobao"/> 					<!--淘宝商城--> 
+
+</List></MainList>
