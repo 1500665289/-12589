@@ -1,0 +1,53 @@
+<ThingDefs><List>
+<ThingDef Type="Plant" Name="WRJ_Wheat" Parent="FarmBase">
+	<ThingName>精选小麦</ThingName>
+	<TexPath>res\Sprs\scene_TemperateForest_plant\scene_maizi001_a;
+			 res\Sprs\scene_TemperateForest_plant\scene_maizi001_b</TexPath>
+	<Desc>主要的食物来源，虽然生长周期较长，但其适应性强，在-200-400度的范围内都可以生长。且产量较大。</Desc>
+	<Plant>	
+		<RipedTexPath>
+		res\Sprs\scene_TemperateForest_plant\scene_maizi002_a;
+		res\Sprs\scene_TemperateForest_plant\scene_maizi002_b
+		</RipedTexPath>
+		<HarvestedTexPath>
+		res\Sprs\scene_TemperateForest_plant\scene_maizi003_a;
+		res\Sprs\scene_TemperateForest_plant\scene_maizi003_b
+		</HarvestedTexPath>
+		<LeaflessTexPath></LeaflessTexPath>   
+		<SnowedTexPath></SnowedTexPath>
+		
+		<GrowDays>1</GrowDays>
+		<HarvestDays>1</HarvestDays>
+		
+		
+		<TempMin>-200</TempMin>
+		<TempMax>400</TempMax>
+		<LingMin>0</LingMin>
+		<LingMax>500</LingMax>
+		<FertilityMin>1</FertilityMin>
+		<FertilityMax>3</FertilityMax>
+		<GrowGlowMin>40</GrowGlowMin>
+		<GrowGlowMax>200</GrowGlowMax>	
+	</Plant>
+	<Harvest>		
+		<HarvestItems>
+			<li>
+				<ThingDef>Item_Wheat</ThingDef>
+				<Count>9</Count>
+			</li>
+			<li>
+				<ThingDef>Item_Healroot</ThingDef>
+				<Count>3</Count>
+			</li>
+			<li>
+				<ThingDef>Item_Cotton</ThingDef>
+				<Count>5</Count>
+			</li>
+			<li>
+				<ThingDef>Item_Mushroom</ThingDef>
+				<Count>2</Count>
+			</li>
+		</HarvestItems>
+	</Harvest>
+</ThingDef>
+</List></ThingDefs>
